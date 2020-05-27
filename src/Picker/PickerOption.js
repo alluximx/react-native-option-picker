@@ -13,43 +13,19 @@ export default class PickerOption extends Component {
     };
   }
 
-  onItemSelected() {}
-
   optionStyle = function (selected) {
     if (selected) {
-      return {
-        margin: 5,
-        width: 100,
-        height: 30,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 4,
-        backgroundColor: '#497DF9',
-        font: 'Helevica Neue',
-      };
+      return this.props.selectedOptionStyle;
     } else {
-      return {
-        margin: 5,
-        width: 100,
-        height: 30,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 4,
-        backgroundColor: '#E9EFFE',
-        font: 'Helevica Neue',
-      };
+        return this.props.optionStyle;
     }
   };
 
   textOptionStyle = function (selected) {
     if (selected) {
-      return {
-        color: '#ffffff',
-      };
+      return this.props.selectedOptionTextStyle
     } else {
-      return {
-        color: '#497DF9',
-      };
+      return this.props.optionTextStyle;
     }
   };
 
@@ -69,18 +45,3 @@ export default class PickerOption extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  gridItem: {
-    margin: 5,
-    width: 60,
-    height: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  pickerOption: {
-    color: 'white',
-    padding: 20,
-    fontSize: 25,
-  },
-});
