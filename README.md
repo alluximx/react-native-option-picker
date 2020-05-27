@@ -12,12 +12,13 @@ $ npm install react-native-option-picker
 
 ## Styling
 
-| Prop                           | Description                                                                                                                                                                                                                                                                              | Type   |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------- |
-| **`optionStyle`**      | Style for the idle option    | Any    
-| **`selectedOptionStyle`** | Style for the selected option   | Any  
-| **`optionTextStyle`**      | Style for the option text       | Any                                                                                        
-| **`selectedOptionTextStyle`** | Style for the selected option text  | Any                                                                                                                                                                                                                                             
+
+| Prop        | Description           | Type  |
+| ------------- |:-------------:| -----:|
+| **`optionStyle`**        |  Style for the idle option | Any |
+| **`selectedOptionStyle`**       | Style for the selected option      |  Any |
+| **`optionTextStyle`** | Style for the option text      |    Any |
+| **`selectedOptionTextStyle`** | Style for the selected option text      |    Any |
 
 
 ## Contributing
