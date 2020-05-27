@@ -1,0 +1,38 @@
+{
+  "name": "react-native-option-picker",
+  "version": "1.0.0",
+  "description": "A simple and customizable React Native option picker tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alluximx/react-native-option-picker.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react",
+    "native",
+    "mobile",
+    "picker",
+    "tool",
+    "option",
+    "select",
+    "checkbox",
+    "radio",
+    "ios",
+    "androidi",
+    "ui"
+  ],
+  "author": "Gustavo Reyes",
+  "email": "gustavo@alluxi.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alluximx/react-native-option-picker/issues"
+  },
+  "homepage": "https://github.com/alluximx/react-native-option-picker#readme"
+}
