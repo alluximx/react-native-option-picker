@@ -38,7 +38,7 @@ Or open up [an issue](https://github.com/gusreyes01/react-native-option-picker/i
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars0.githubusercontent.com/u/2120129?v=4" width="100px;"/><br /><sub><b>Gustavo Reyes</b></sub>](https://github.com/gusreyes01)<br />[💬](#question-gusreyes01 "Answering Questions") [💻](https://github.com/alluximx/react-native-option-picker/commits?author=gusreyes01 "Code") 
+[<img src="https://avatars0.githubusercontent.com/u/2120129?v=4" width="100px;"/><br /><sub><b>Gustavo Reyes</b></sub>](https://github.com/gusreyes01)<br />[💬](#question-gusreyes01 "Answering Questions") [💻](https://github.com/alluximx/react-native-option-picker/commits?author=gusreyes01 "Code") 
 
 
 ## Discussion and Collaboration
