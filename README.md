@@ -1,4 +1,4 @@
-react-native-option-picker
+# react-native-option-picker
 
 A simple and customizable React Native option picker tool.
 
@@ -6,17 +6,17 @@ A simple and customizable React Native option picker tool.
 [![npm downloads](https://img.shields.io/npm/dm/react-native-option-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
 
 
-=================================================
-
-
+<hr>
+<br>
 
 <img src="./react-native-option-picker.gif" width="250" height="500"/>
 
-## [View example on snack.expo.io](https://snack.expo.io/@gus_reyes01/react-native-option-picker)
 
 ## Getting Started
 
-## Install
+### [View example on snack.expo.io](https://snack.expo.io/@gus_reyes01/react-native-option-picker)
+
+### Install
 
 ```sh
 $ npm install react-native-option-picker
