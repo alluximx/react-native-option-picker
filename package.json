@@ -1,6 +1,6 @@
 {
   "name": "react-native-option-picker",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A simple and customizable React Native option picker tool.",
   "main": "index.js",
   "scripts": {

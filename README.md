@@ -1,6 +1,10 @@
-React Native Option Picker
+react-native-option-picker
+
 ================================================
 A simple and customizable React Native option picker tool.
+
+[![npm version](https://badge.fury.io/js/react-native-option-picker.svg)](https://badge.fury.io/js/react-native-option-picker)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-option-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
 
 
 <img src="./react-native-option-picker.gif" width="250" height="500"/>
