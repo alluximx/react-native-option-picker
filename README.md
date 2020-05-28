@@ -6,7 +6,7 @@ A simple and customizable React Native option picker tool.
 [![npm downloads](https://img.shields.io/npm/dm/react-native-option-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
 
 
-================================================================================================
+=================================================
 
 
 
