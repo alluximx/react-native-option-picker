@@ -12,38 +12,7 @@ export default class Picker extends Component {
     super(props);
     this.state = {
       selectedOpton: null,
-      data: [
-        {
-          id: '9',
-          title: '9:00 AM',
-          selected: false,
-        },
-        {
-          id: '10',
-          title: '10:00 AM',
-          selected: true,
-        },
-        {
-          id: '11',
-          title: '11:00 AM',
-          selected: false,
-        },
-        {
-          id: '12',
-          title: '12:00 AM',
-          selected: false,
-        },
-        {
-          id: '13',
-          title: '1:00 AM',
-          selected: false,
-        },
-        {
-          id: '14',
-          title: '1:00 AM',
-          selected: false,
-        },
-      ],
+      data: this.props.data
     };
   }
 
@@ -74,6 +43,10 @@ export default class Picker extends Component {
         columnWrapperStyle={styles.row}
         renderItem={({item}) => (
           <PickerOption
+            optionStyle={this.props.optionStyle}
+            selectedOptionStyle={this.props.selectedOptionStyle}
+            optionTextStyle={this.props.optionTextStyle}
+            selectedOptionTextStyle={this.props.selectedOptionTextStyle}
             updateSelectedOption={this.updateSelectedOption}
             item={item}
           />

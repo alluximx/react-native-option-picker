@@ -1,14 +1,30 @@
 import React, {Component} from 'react';
+import PropTypes from "prop-types";
 import {
   TouchableOpacity,
   Text,
 } from 'react-native';
 
 export default class PickerOption extends Component {
+
+  static propTypes = {
+    style: PropTypes.any,
+    selected: PropTypes.bool,
+    selectedOptionStyle: PropTypes.any,
+    optionStyle: PropTypes.any,
+    selectedOptionTextStyle: PropTypes.any,
+    optionTextStyle: PropTypes.any,
+    item: PropTypes.object,
+  };
+
+  static defaultProps = {
+    selected: false
+  };
+
   constructor(props) {
     super(props);
     this.state = {
-      selected: false,
+      selected: this.props.selected,
     };
   }
 
