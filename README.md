@@ -3,7 +3,7 @@ React Native Option Picker
 A simple and customizable React Native option picker tool.
 
 
-![iOS Example](./react-native-option-picker.gif){:height="50%" width="50%"}
+<img src="./react-native-option-picker.gif" width="250" height="500"/>
 
 ## [View example on snack.expo.io](https://snack.expo.io/@gus_reyes01/react-native-option-picker)
 
