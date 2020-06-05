@@ -28,7 +28,7 @@ $ npm install react-native-option-picker
 
 import {Picker} from 'react-native-option-picker';
 
-export const Dropdown = () => {
+export const CustomPicker = () => {
     return (
         <Picker
             data={[
