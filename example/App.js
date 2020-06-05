@@ -29,12 +29,12 @@ const DATA = [
   },
   {
     id: '13',
-    title: '1:00 AM',
+    title: '1:00 PM',
     selected: false,
   },
   {
     id: '14',
-    title: '1:00 AM',
+    title: '1:00 PM',
     selected: false,
   },
 ];
@@ -44,12 +44,18 @@ export default class App extends React.Component {
     super(props);
   }
 
+  _onPress(data){
+    // do something fun! 
+    alert(data);
+  }
+
   render() {
     return (
       <View style={styles.container}>
         <Picker
-          style={styles.pickerStyle}
           data={DATA}
+          onPress={this._onPress}
+          style={styles.pickerStyle}
           optionStyle={styles.optionStyle}
           selectedOptionStyle={styles.selectedOptionStyle}
           optionTextStyle={styles.optionTextStyle}

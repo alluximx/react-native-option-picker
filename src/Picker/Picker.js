@@ -17,6 +17,8 @@ export default class Picker extends Component {
   }
 
   updateSelectedOption = (newSelectedOption) => {
+    var onPress = this.props.onPress || null;
+
     this.state.data.forEach(function (element) {
       if (element.selected) {
         if (newSelectedOption.id == element.id) {
@@ -32,12 +34,18 @@ export default class Picker extends Component {
     });
 
     this.setState({data: this.state.data});
+    
+    if(onPress){
+      onPress(newSelectedOption)
+    }
+
     return true;
   };
 
   render() {
     return (
       <FlatList
+        style={this.props.style}
         numColumns={3}
         data={this.state.data}
         columnWrapperStyle={styles.row}

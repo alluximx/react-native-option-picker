@@ -47,10 +47,20 @@ export const Dropdown = () => {
 
 | Prop        | Description           | Type  |
 | ------------- |:-------------:| -----:|
+| **`style`**        |  Picker styling | Any |
 | **`optionStyle`**        |  Style for the idle option | Any |
 | **`selectedOptionStyle`**       | Style for the selected option      |  Any |
 | **`optionTextStyle`** | Style for the option text      |    Any |
 | **`selectedOptionTextStyle`** | Style for the selected option text      |    Any |
+
+
+### Methods
+
+Methods may be accessed through the instantiated component's [ref](https://reactjs.org/docs/react-component.html).
+
+| Prop                                  | Description                                                                                                                                                                                                                                                                                           |
+| ------------------------------------- | --------------------------------------------------------------------------------- |
+| **`onPress(element)`**               | Returns the selected element when an option is selected.   |
 
 
 ## Contributing
