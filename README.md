@@ -3,7 +3,7 @@
 A simple and customizable React Native option picker tool.
 
 [![npm version](https://badge.fury.io/js/react-native-option-picker.svg)](https://badge.fury.io/js/react-native-option-picker)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-option-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker-select)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-option-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-option-picker)
 
 
 <hr>
@@ -33,7 +33,7 @@ export const CustomPicker = () => {
     function _onPress(elem){
         alert(JSON.stringify(elem));
     }
-    
+
     return (
         <Picker
             data={[
