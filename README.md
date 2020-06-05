@@ -29,6 +29,11 @@ $ npm install react-native-option-picker
 import {Picker} from 'react-native-option-picker';
 
 export const CustomPicker = () => {
+
+    function _onPress(elem){
+        alert(JSON.stringify(elem));
+    }
+    
     return (
         <Picker
             data={[
@@ -36,6 +41,7 @@ export const CustomPicker = () => {
                 { id: '10', title: '10:00 AM', selected: true },
                 { id: '11', title: '11:00 AM', selected: false },
             ]}
+            onPress={this._onPress}
         />
     );
 };
