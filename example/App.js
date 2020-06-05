@@ -44,9 +44,9 @@ export default class App extends React.Component {
     super(props);
   }
 
-  _onPress(data){
+  _onPress(elem){
     // do something fun! 
-    alert(data);
+    alert(JSON.stringify(elem));
   }
 
   render() {

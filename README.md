@@ -54,7 +54,7 @@ export const CustomPicker = () => {
 | **`selectedOptionTextStyle`** | Style for the selected option text      |    Any |
 
 
-### Methods
+## Methods
 
 Methods may be accessed through the instantiated component's [ref](https://reactjs.org/docs/react-component.html).
 
